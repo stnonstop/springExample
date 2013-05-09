@@ -18,7 +18,7 @@ public class SpringTests {
     public void testGetVets(){
 
         ClassPathXmlApplicationContext applicationContext = new ClassPathXmlApplicationContext(
-                "/appcontext/beans-dao.xml","/appcontext/beans-service.xml");
+                "/appcontext/beans-dao.xml","/appcontext/beans-service.xml", "/appcontext/beans-config.xml");
 
         System.out.println("Context Created");
 
