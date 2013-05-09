@@ -1,0 +1,1 @@
+package com.gg.example.springExample.model;
