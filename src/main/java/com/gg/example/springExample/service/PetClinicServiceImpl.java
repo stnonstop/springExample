@@ -3,20 +3,26 @@ package com.gg.example.springExample.service;
 import java.util.Collection;
 
 import com.gg.example.springExample.dao.PetClinicDao;
+import com.gg.example.springExample.event.EntitySaveEvent;
 import com.gg.example.springExample.model.Owner;
 import com.gg.example.springExample.model.Person;
 import com.gg.example.springExample.model.Pet;
 import com.gg.example.springExample.model.Vet;
 import com.gg.example.springExample.model.Visit;
+import org.springframework.beans.BeansException;
 import org.springframework.beans.factory.DisposableBean;
 import org.springframework.beans.factory.InitializingBean;
 import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.context.ApplicationContext;
+import org.springframework.context.ApplicationContextAware;
 import org.springframework.stereotype.Service;
 
 @Service("petClinicService")
-public class PetClinicServiceImpl implements PetClinicService, InitializingBean, DisposableBean {
+public class PetClinicServiceImpl implements PetClinicService, InitializingBean, DisposableBean, ApplicationContextAware {
 	
 	private PetClinicDao petClinicDao;
+
+    private ApplicationContext applicationContext;
 
     @Autowired
 	public PetClinicServiceImpl(PetClinicDao petClinicDao) {
@@ -59,6 +65,9 @@ public class PetClinicServiceImpl implements PetClinicService, InitializingBean,
 
 	public void saveVet(Vet vet) {
 		petClinicDao.saveVet(vet);
+        EntitySaveEvent entitySaveEvent = new EntitySaveEvent(this);
+        entitySaveEvent.setEntity(vet);
+        applicationContext.publishEvent(entitySaveEvent);
 	}
 
 	public void deleteOwner(long ownerId) {
@@ -73,5 +82,10 @@ public class PetClinicServiceImpl implements PetClinicService, InitializingBean,
     @Override
     public void destroy() throws Exception {
         System.out.println("PetClinicService destroyed");
+    }
+
+    @Override
+    public void setApplicationContext(ApplicationContext applicationContext) throws BeansException {
+        this.applicationContext = applicationContext;
     }
 }
