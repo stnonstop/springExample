@@ -2,30 +2,36 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="f9ae6855-3e21-4292-bdb7-9a6878b2129a" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/test/java/com/gg/example/springExample/tests/SpELTest.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/com/gg/example/springExample/dao/PetClinicDaoJdbcImpl.java" afterPath="$PROJECT_DIR$/src/main/java/com/gg/example/springExample/dao/PetClinicDaoJdbcImpl.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/test/java/com/gg/example/springExample/tests/SpringTests.java" afterPath="$PROJECT_DIR$/src/test/java/com/gg/example/springExample/tests/SpringTests.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/com/gg/example/springExample/model/Vet.java" afterPath="$PROJECT_DIR$/src/main/java/com/gg/example/springExample/model/Vet.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/resources/appcontext/beans-dao.xml" afterPath="$PROJECT_DIR$/src/main/resources/appcontext/beans-dao.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build.xml" afterPath="$PROJECT_DIR$/build.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/log4j.xml" afterPath="$PROJECT_DIR$/log4j.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="springExample.iws" />
     <ignored path=".idea/workspace.xml" />
-    <file path="/PetClinicDaoJdbcImpl.java" changelist="f9ae6855-3e21-4292-bdb7-9a6878b2129a" time="1368108036945" ignored="false" />
+    <file path="/PetClinicDaoJdbcImpl.java" changelist="f9ae6855-3e21-4292-bdb7-9a6878b2129a" time="1368185584841" ignored="false" />
     <file path="/a.dummy" changelist="f9ae6855-3e21-4292-bdb7-9a6878b2129a" time="1368087779785" ignored="false" />
     <file path="/bean-dao.xml" changelist="f9ae6855-3e21-4292-bdb7-9a6878b2129a" time="1368090018347" ignored="false" />
     <file path="/beans-service.xml" changelist="f9ae6855-3e21-4292-bdb7-9a6878b2129a" time="1368107316285" ignored="false" />
     <file path="/SpringTests.java" changelist="f9ae6855-3e21-4292-bdb7-9a6878b2129a" time="1368172512897" ignored="false" />
-    <file path="/beans-dao.xml" changelist="f9ae6855-3e21-4292-bdb7-9a6878b2129a" time="1368106980588" ignored="false" />
+    <file path="/beans-dao.xml" changelist="f9ae6855-3e21-4292-bdb7-9a6878b2129a" time="1368184990852" ignored="false" />
     <file path="/PetClinicServiceImpl.java" changelist="f9ae6855-3e21-4292-bdb7-9a6878b2129a" time="1368169321605" ignored="false" />
     <file path="/PetClinicServiceFactoryBean.java" changelist="f9ae6855-3e21-4292-bdb7-9a6878b2129a" time="1368099076654" ignored="false" />
     <file path="/log4j.xml" changelist="f9ae6855-3e21-4292-bdb7-9a6878b2129a" time="1368105572120" ignored="false" />
-    <file path="/Dummy.txt" changelist="f9ae6855-3e21-4292-bdb7-9a6878b2129a" time="1368170341732" ignored="false" />
+    <file path="/Dummy.txt" changelist="f9ae6855-3e21-4292-bdb7-9a6878b2129a" time="1368183225576" ignored="false" />
     <file path="/beans-config.xml" changelist="f9ae6855-3e21-4292-bdb7-9a6878b2129a" time="1368107233208" ignored="false" />
     <file path="/PetClinicEventHandler.java" changelist="f9ae6855-3e21-4292-bdb7-9a6878b2129a" time="1368168913903" ignored="false" />
     <file path="/EntitySaveEvent.java" changelist="f9ae6855-3e21-4292-bdb7-9a6878b2129a" time="1368169548393" ignored="false" />
     <file path="/PetClinicSaveEventHandler.java" changelist="f9ae6855-3e21-4292-bdb7-9a6878b2129a" time="1368169534524" ignored="false" />
     <file path="/fragment.java" changelist="f9ae6855-3e21-4292-bdb7-9a6878b2129a" time="1368170293131" ignored="false" />
     <file path="/SpELTest.java" changelist="f9ae6855-3e21-4292-bdb7-9a6878b2129a" time="1368174305117" ignored="false" />
+    <file path="$PROJECT_DIR$/../apiv3/api-domain/src/main/java/com/gg/api/domain/product/Item.java" changelist="f9ae6855-3e21-4292-bdb7-9a6878b2129a" time="1368183177027" ignored="false" />
+    <file path="/Item.java" changelist="f9ae6855-3e21-4292-bdb7-9a6878b2129a" time="1368183170752" ignored="false" />
+    <file path="$PROJECT_DIR$/../apiv3/api-parent/.idea/workspace.xml" changelist="f9ae6855-3e21-4292-bdb7-9a6878b2129a" time="1368183622427" ignored="false" />
+    <file path="/build.xml" changelist="f9ae6855-3e21-4292-bdb7-9a6878b2129a" time="1368183965077" ignored="false" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -89,7 +95,29 @@
       <file leaf-file-name="PetClinicDaoJdbcImpl.java" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/com/gg/example/springExample/dao/PetClinicDaoJdbcImpl.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="13" column="11" selection-start="432" selection-end="432" vertical-scroll-proportion="0.0">
+            <state line="46" column="20" selection-start="1636" selection-end="1636" vertical-scroll-proportion="0.0">
+              <folding>
+                <element signature="imports" expanded="true" />
+                <element signature="e#1161#1634#0" expanded="true" />
+                <element signature="e#1615#1616#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="build.xml" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/build.xml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="3" column="53" selection-start="159" selection-end="159" vertical-scroll-proportion="0.0">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="beans-dao.xml" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/resources/appcontext/beans-dao.xml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="13" column="53" selection-start="934" selection-end="934" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
@@ -98,7 +126,7 @@
       <file leaf-file-name="SpringTests.java" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/test/java/com/gg/example/springExample/tests/SpringTests.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="47" column="0" selection-start="1204" selection-end="1204" vertical-scroll-proportion="0.0">
+            <state line="31" column="49" selection-start="922" selection-end="922" vertical-scroll-proportion="0.0">
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -106,13 +134,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="SpELTest.java" pinned="false" current="true" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/test/java/com/gg/example/springExample/tests/SpELTest.java">
+      <file leaf-file-name="PetClinicService.java" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/gg/example/springExample/service/PetClinicService.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="39" column="63" selection-start="1314" selection-end="1314" vertical-scroll-proportion="0.5818815">
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
+            <state line="13" column="20" selection-start="375" selection-end="375" vertical-scroll-proportion="0.0">
+              <folding />
             </state>
           </provider>
         </entry>
@@ -142,41 +168,10 @@
       <file leaf-file-name="EntitySaveEvent.java" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/com/gg/example/springExample/event/EntitySaveEvent.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="3" column="52" selection-start="151" selection-end="151" vertical-scroll-proportion="0.0">
+            <state line="10" column="13" selection-start="225" selection-end="225" vertical-scroll-proportion="0.0">
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="beans-dao.xml" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/resources/appcontext/beans-dao.xml">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="4" column="0" selection-start="404" selection-end="404" vertical-scroll-proportion="0.0">
-              <folding>
-                <marker date="1368108253000" expanded="true" signature="498:798" placeholder="..." />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="PetClinicServiceFactoryBean.java" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/gg/example/springExample/service/PetClinicServiceFactoryBean.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="10" column="13" selection-start="227" selection-end="227" vertical-scroll-proportion="0.0">
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="PetClinicService.java" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/gg/example/springExample/service/PetClinicService.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="11" column="17" selection-start="338" selection-end="338" vertical-scroll-proportion="0.0">
-              <folding />
             </state>
           </provider>
         </entry>
@@ -184,10 +179,19 @@
       <file leaf-file-name="PetClinicServiceImpl.java" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/com/gg/example/springExample/service/PetClinicServiceImpl.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="27" column="45" selection-start="1123" selection-end="1123" vertical-scroll-proportion="0.0">
+            <state line="32" column="27" selection-start="1265" selection-end="1265" vertical-scroll-proportion="0.0">
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Vet.java" pinned="false" current="true" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/gg/example/springExample/model/Vet.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="20" column="18" selection-start="500" selection-end="500" vertical-scroll-proportion="0.13596492">
+              <folding />
             </state>
           </provider>
         </entry>
@@ -215,21 +219,22 @@
   <component name="IdeDocumentHistory">
     <option name="changedFiles">
       <list>
-        <option value="$PROJECT_DIR$/pom.xml" />
         <option value="$PROJECT_DIR$/src/main/java/com/gg/example/springExample/dao/PetClinicDao.java" />
         <option value="$PROJECT_DIR$/src/main/resources/appcontext/bean-dao.xml" />
         <option value="$PROJECT_DIR$/src/main/java/com/gg/example/springExample/service/PetClinicServiceFactoryBean.java" />
         <option value="$PROJECT_DIR$/log4j.xml" />
         <option value="$PROJECT_DIR$/src/main/resources/appcontext/beans-config.xml" />
         <option value="$PROJECT_DIR$/src/main/resources/appcontext/beans-service.xml" />
-        <option value="$PROJECT_DIR$/src/main/java/com/gg/example/springExample/dao/PetClinicDaoJdbcImpl.java" />
-        <option value="$PROJECT_DIR$/src/main/resources/appcontext/beans-dao.xml" />
         <option value="$PROJECT_DIR$/src/main/java/com/gg/example/springExample/event/PetClinicEventHandler.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/gg/example/springExample/service/PetClinicServiceImpl.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/gg/example/springExample/event/PetClinicSaveEventHandler.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/gg/example/springExample/event/EntitySaveEvent.java" />
-        <option value="$PROJECT_DIR$/src/test/java/com/gg/example/springExample/tests/SpringTests.java" />
         <option value="$PROJECT_DIR$/src/test/java/com/gg/example/springExample/tests/SpELTest.java" />
+        <option value="$PROJECT_DIR$/build.xml" />
+        <option value="$PROJECT_DIR$/src/main/resources/appcontext/beans-dao.xml" />
+        <option value="$PROJECT_DIR$/src/main/java/com/gg/example/springExample/dao/PetClinicDaoJdbcImpl.java" />
+        <option value="$PROJECT_DIR$/src/test/java/com/gg/example/springExample/tests/SpringTests.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/gg/example/springExample/model/Vet.java" />
       </list>
     </option>
   </component>
@@ -335,216 +340,6 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
             </PATH_ELEMENT>
           </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="springExample" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="springExample" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="springExample" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="springExample" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="src" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="test" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="springExample" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="springExample" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="src" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="test" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="java" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="tests" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="springExample" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="springExample" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="src" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="main" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="webapp" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="springExample" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="springExample" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="src" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="main" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="resources" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="springExample" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="springExample" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="src" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="main" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="resources" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="appcontext" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="springExample" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="springExample" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="src" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="main" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="java" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="springExample" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="service" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="springExample" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="springExample" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="src" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="main" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="java" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="springExample" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="springExample" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="springExample" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="src" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="main" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="java" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="springExample" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="event" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
         </subPane>
       </pane>
     </panes>
@@ -558,7 +353,7 @@
     <property name="MemberChooser.sorted" value="false" />
     <property name="options.lastSelected" value="web.server" />
     <property name="recentsLimit" value="5" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/.." />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/build.xml" />
     <property name="project.structure.side.proportion" value="0.2" />
     <property name="MemberChooser.copyJavadoc" value="false" />
     <property name="GoToClass.toSaveIncludeLibraries" value="false" />
@@ -578,7 +373,7 @@
       <recent name="$PROJECT_DIR$/src/main/java/com/gg/example/springExample" />
     </key>
   </component>
-  <component name="RunManager" selected="JUnit.SpELTest.testSpEL">
+  <component name="RunManager" selected="JUnit.SpringTests.testGetVets">
     <configuration default="false" name="SpringTests.testGetVets" type="JUnit" factoryName="JUnit" temporary="true">
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
         <pattern>
@@ -812,10 +607,10 @@
     </list>
     <recent_temporary>
       <list size="4">
-        <item index="0" class="java.lang.String" itemvalue="JUnit.SpELTest.testSpEL" />
-        <item index="1" class="java.lang.String" itemvalue="JUnit.SpringTests" />
-        <item index="2" class="java.lang.String" itemvalue="JUnit.SpringTests.testSaveVet" />
-        <item index="3" class="java.lang.String" itemvalue="JUnit.SpringTests.testGetVets" />
+        <item index="0" class="java.lang.String" itemvalue="JUnit.SpringTests.testGetVets" />
+        <item index="1" class="java.lang.String" itemvalue="JUnit.SpringTests.testSaveVet" />
+        <item index="2" class="java.lang.String" itemvalue="JUnit.SpELTest.testSpEL" />
+        <item index="3" class="java.lang.String" itemvalue="JUnit.SpringTests" />
       </list>
     </recent_temporary>
     <configuration name="&lt;template&gt;" type="WebApp" default="true" selected="false">
@@ -863,7 +658,11 @@
       <created>1368170348873</created>
       <updated>1368170348873</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="SpEL">
+      <created>1368175517062</created>
+      <updated>1368175517062</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="ToolWindowManager">
@@ -873,9 +672,9 @@
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="JetGradle" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32781458" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32724252" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.24959481" sideWeight="0.5614618" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="IDEtalk Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
@@ -940,7 +739,7 @@
     <option name="WRAP_WHEN_TYPING_REACHES_RIGHT_MARGIN" value="false" />
     <option name="FORCE_NON_EMPTY_COMMENT" value="false" />
     <option name="CLEAR_INITIAL_COMMIT_MESSAGE" value="false" />
-    <option name="LAST_COMMIT_MESSAGE" value="Event Handler" />
+    <option name="LAST_COMMIT_MESSAGE" value="SpEL" />
     <option name="MAKE_NEW_CHANGELIST_ACTIVE" value="false" />
     <option name="OPTIMIZE_IMPORTS_BEFORE_PROJECT_COMMIT" value="false" />
     <option name="CHECK_FILES_UP_TO_DATE_BEFORE_COMMIT" value="false" />
@@ -958,6 +757,7 @@
     <MESSAGE value="Lab3" />
     <MESSAGE value="Autowired" />
     <MESSAGE value="Event Handler" />
+    <MESSAGE value="SpEL" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager />
@@ -965,22 +765,11 @@
   <component name="antWorkspaceConfiguration">
     <option name="IS_AUTOSCROLL_TO_SOURCE" value="false" />
     <option name="FILTER_TARGETS" value="false" />
+    <buildFile url="file://$PROJECT_DIR$/build.xml">
+      <expanded value="true" />
+    </buildFile>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/main/webapp/index.jsp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/build.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/log4j.xml">
       <provider selected="true" editor-type-id="text-editor">
         <state line="4" column="75" selection-start="241" selection-end="241" vertical-scroll-proportion="0.0">
@@ -1011,18 +800,29 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/gg/example/springExample/dao/PetClinicDaoJdbcImpl.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/gg/example/springExample/service/PetClinicServiceFactoryBean.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="13" column="11" selection-start="432" selection-end="432" vertical-scroll-proportion="0.0">
-          <folding />
+        <state line="10" column="13" selection-start="227" selection-end="227" vertical-scroll-proportion="0.0">
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/resources/appcontext/beans-dao.xml">
+    <entry file="file://$PROJECT_DIR$/src/test/java/com/gg/example/springExample/tests/SpELTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="4" column="0" selection-start="404" selection-end="404" vertical-scroll-proportion="0.0">
+        <state line="39" column="63" selection-start="1314" selection-end="1314" vertical-scroll-proportion="0.0">
           <folding>
-            <marker date="1368108253000" expanded="true" signature="498:798" placeholder="..." />
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/gg/example/springExample/event/EntitySaveEvent.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="10" column="13" selection-start="225" selection-end="225" vertical-scroll-proportion="0.0">
+          <folding>
+            <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -1045,55 +845,60 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/gg/example/springExample/service/PetClinicService.java">
+    <entry file="file://$PROJECT_DIR$/build.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="11" column="17" selection-start="338" selection-end="338" vertical-scroll-proportion="0.0">
+        <state line="3" column="53" selection-start="159" selection-end="159" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/gg/example/springExample/service/PetClinicServiceFactoryBean.java">
+    <entry file="file://$PROJECT_DIR$/src/main/resources/appcontext/beans-dao.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="10" column="13" selection-start="227" selection-end="227" vertical-scroll-proportion="0.0">
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
+        <state line="13" column="53" selection-start="934" selection-end="934" vertical-scroll-proportion="0.0">
+          <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/gg/example/springExample/service/PetClinicServiceImpl.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/gg/example/springExample/dao/PetClinicDaoJdbcImpl.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="27" column="45" selection-start="1123" selection-end="1123" vertical-scroll-proportion="0.0">
+        <state line="46" column="20" selection-start="1636" selection-end="1636" vertical-scroll-proportion="0.0">
           <folding>
             <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/gg/example/springExample/event/EntitySaveEvent.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="3" column="52" selection-start="151" selection-end="151" vertical-scroll-proportion="0.0">
-          <folding>
-            <element signature="imports" expanded="true" />
+            <element signature="e#1161#1634#0" expanded="true" />
+            <element signature="e#1615#1616#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/com/gg/example/springExample/tests/SpringTests.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="47" column="0" selection-start="1204" selection-end="1204" vertical-scroll-proportion="0.0">
+        <state line="31" column="49" selection-start="922" selection-end="922" vertical-scroll-proportion="0.0">
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/com/gg/example/springExample/tests/SpELTest.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/gg/example/springExample/service/PetClinicService.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="39" column="63" selection-start="1314" selection-end="1314" vertical-scroll-proportion="0.5818815">
+        <state line="13" column="20" selection-start="375" selection-end="375" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/gg/example/springExample/service/PetClinicServiceImpl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="32" column="27" selection-start="1265" selection-end="1265" vertical-scroll-proportion="0.0">
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/gg/example/springExample/model/Vet.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="20" column="18" selection-start="500" selection-end="500" vertical-scroll-proportion="0.13596492">
+          <folding />
         </state>
       </provider>
     </entry>
