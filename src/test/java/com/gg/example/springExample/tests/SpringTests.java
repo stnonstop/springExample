@@ -2,10 +2,12 @@ package com.gg.example.springExample.tests;
 
 import com.gg.example.springExample.model.Vet;
 import com.gg.example.springExample.service.PetClinicService;
-import org.junit.After;
-import org.junit.Before;
 import org.junit.Test;
-import org.springframework.context.support.ClassPathXmlApplicationContext;
+import org.junit.runner.RunWith;
+import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.test.annotation.DirtiesContext;
+import org.springframework.test.context.ContextConfiguration;
+import org.springframework.test.context.junit4.SpringJUnit4ClassRunner;
 
 import java.util.Collection;
 
@@ -14,21 +16,14 @@ import java.util.Collection;
  * Date: 5/9/13
  * Time: 11:46 AM
  */
+@RunWith(SpringJUnit4ClassRunner.class)
+@ContextConfiguration("/appcontext/beans-*.xml")
+@DirtiesContext /* Tekrar tekrar yarat demek*/
 public class SpringTests {
 
-    private ClassPathXmlApplicationContext applicationContext;
+    @Autowired
     private PetClinicService petClinicService;
 
-    @Before
-    public void setUp(){
-        applicationContext = new ClassPathXmlApplicationContext("classpath*:/appcontext/beans-*.xml");
-        petClinicService = applicationContext.getBean("petClinicService",PetClinicService.class);
-    }
-
-    @After
-    public void destroy(){
-
-    }
 
     @Test
     public void testGetVets(){
@@ -39,9 +34,6 @@ public class SpringTests {
         for (Vet vet : vets) {
             System.out.println(vet);
         }
-
-        //Standalone ortam için geçerli. Web containerlar bunu bir şekilde kendileri yapıyor.
-        applicationContext.registerShutdownHook();
     }
 
     @Test
@@ -52,5 +44,7 @@ public class SpringTests {
         vet.setLastName("Durmaz");
         petClinicService.saveVet(vet);
     }
+
+
 
 }
