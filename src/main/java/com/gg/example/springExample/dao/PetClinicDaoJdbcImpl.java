@@ -9,7 +9,9 @@ import com.gg.example.springExample.model.Person;
 import com.gg.example.springExample.model.Pet;
 import com.gg.example.springExample.model.Vet;
 import com.gg.example.springExample.model.Visit;
+import org.springframework.stereotype.Repository;
 
+@Repository
 public class PetClinicDaoJdbcImpl implements PetClinicDao {
 
 

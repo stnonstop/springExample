@@ -10,11 +10,15 @@ import com.gg.example.springExample.model.Vet;
 import com.gg.example.springExample.model.Visit;
 import org.springframework.beans.factory.DisposableBean;
 import org.springframework.beans.factory.InitializingBean;
+import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.stereotype.Service;
 
+@Service("petClinicService")
 public class PetClinicServiceImpl implements PetClinicService, InitializingBean, DisposableBean {
 	
 	private PetClinicDao petClinicDao;
 
+    @Autowired
 	public PetClinicServiceImpl(PetClinicDao petClinicDao) {
         System.out.println("PetClinicService created");
         this.petClinicDao = petClinicDao;
