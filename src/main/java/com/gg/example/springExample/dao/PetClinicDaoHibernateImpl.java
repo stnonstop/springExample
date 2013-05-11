@@ -39,12 +39,12 @@ public class PetClinicDaoHibernateImpl implements PetClinicDao {
 
     @Override
     public Collection<Owner> findOwners(String lastName) {
-        return null;  //To change body of implemented methods use File | Settings | File Templates.
+        return sessionFactory.getCurrentSession().createQuery("from Owner o where o.lastName = :lastName").setParameter("lastName", lastName).list();
     }
 
     @Override
     public Collection<Visit> findVisits(long petId) {
-        return null;  //To change body of implemented methods use File | Settings | File Templates.
+        return sessionFactory.getCurrentSession().createQuery("from Visit v where v.pet_id = ?").setParameter(0,petId).list();  //To change body of implemented methods use File | Settings | File Templates.
     }
 
     @Override
@@ -54,22 +54,23 @@ public class PetClinicDaoHibernateImpl implements PetClinicDao {
 
     @Override
     public Owner loadOwner(long id) {
-        return null;  //To change body of implemented methods use File | Settings | File Templates.
+
+        return (Owner) sessionFactory.getCurrentSession().get(Owner.class,id);  //To change body of implemented methods use File | Settings | File Templates.
     }
 
     @Override
     public Pet loadPet(long id) {
-        return null;  //To change body of implemented methods use File | Settings | File Templates.
+        return (Pet) sessionFactory.getCurrentSession().createQuery("from Pet p where p.id = ?").setParameter(0,id).uniqueResult();  //To change body of implemented methods use File | Settings | File Templates.
     }
 
     @Override
     public Vet loadVet(long id) {
-        return null;  //To change body of implemented methods use File | Settings | File Templates.
+        return (Vet) sessionFactory.getCurrentSession().load(Vet.class, id);  //To change body of implemented methods use File | Settings | File Templates.
     }
 
     @Override
     public void saveOwner(Owner owner) {
-        //To change body of implemented methods use File | Settings | File Templates.
+        sessionFactory.getCurrentSession().saveOrUpdate(owner);
     }
 
     @Override
@@ -79,6 +80,8 @@ public class PetClinicDaoHibernateImpl implements PetClinicDao {
 
     @Override
     public void deleteOwner(long ownerId) {
-        //To change body of implemented methods use File | Settings | File Templates.
+        Owner owner= new Owner();
+        owner.setId(ownerId);
+        sessionFactory.getCurrentSession().delete(owner);
     }
 }
