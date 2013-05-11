@@ -1,7 +1,6 @@
 package com.gg.example.springExample.dao;
 
 import com.gg.example.springExample.model.*;
-import org.hibernate.Criteria;
 import org.hibernate.Query;
 import org.hibernate.Session;
 import org.hibernate.SessionFactory;
@@ -75,7 +74,7 @@ public class PetClinicDaoHibernateImpl implements PetClinicDao {
 
     @Override
     public void saveVet(Vet vet) {
-        //To change body of implemented methods use File | Settings | File Templates.
+        sessionFactory.getCurrentSession().save(vet);
     }
 
     @Override

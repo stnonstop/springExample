@@ -17,13 +17,22 @@ import org.springframework.beans.factory.annotation.Qualifier;
 import org.springframework.context.ApplicationContext;
 import org.springframework.context.ApplicationContextAware;
 import org.springframework.stereotype.Service;
+import org.springframework.transaction.PlatformTransactionManager;
+import org.springframework.transaction.TransactionStatus;
+import org.springframework.transaction.annotation.Transactional;
+import org.springframework.transaction.support.TransactionCallbackWithoutResult;
+import org.springframework.transaction.support.TransactionTemplate;
 
 @Service("petClinicService")
+@Transactional
 public class PetClinicServiceImpl implements PetClinicService, InitializingBean, DisposableBean, ApplicationContextAware {
 	
 	private PetClinicDao petClinicDao;
 
     private ApplicationContext applicationContext;
+
+    @Autowired
+    private PlatformTransactionManager transactionManager;
 
     @Autowired
 	public PetClinicServiceImpl(@Qualifier("petClinicDao")PetClinicDao petClinicDao) {
@@ -64,11 +73,17 @@ public class PetClinicServiceImpl implements PetClinicService, InitializingBean,
 		return owner.getId();
 	}
 
-	public void saveVet(Vet vet) {
-		petClinicDao.saveVet(vet);
-        EntitySaveEvent entitySaveEvent = new EntitySaveEvent(this);
-        entitySaveEvent.setEntity(vet);
-        applicationContext.publishEvent(entitySaveEvent);
+	public void saveVet(final Vet vet) {
+        TransactionTemplate txTemplate = new TransactionTemplate(transactionManager);
+        txTemplate.execute(new TransactionCallbackWithoutResult() {
+            @Override
+            protected void doInTransactionWithoutResult(TransactionStatus transactionStatus) {
+                petClinicDao.saveVet(vet);
+                EntitySaveEvent entitySaveEvent = new EntitySaveEvent(this);
+                entitySaveEvent.setEntity(vet);
+                applicationContext.publishEvent(entitySaveEvent);
+            }
+        });
 	}
 
 	public void deleteOwner(long ownerId) {
