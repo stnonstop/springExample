@@ -2,13 +2,12 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="f9ae6855-3e21-4292-bdb7-9a6878b2129a" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/com/gg/example/springExample/dao/PetClinicDaoHibernateImpl.java" afterPath="$PROJECT_DIR$/src/main/java/com/gg/example/springExample/dao/PetClinicDaoHibernateImpl.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/com/gg/example/springExample/service/PetClinicServiceImpl.java" afterPath="$PROJECT_DIR$/src/main/java/com/gg/example/springExample/service/PetClinicServiceImpl.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/test/java/com/gg/example/springExample/tests/SpringTests.java" afterPath="$PROJECT_DIR$/src/test/java/com/gg/example/springExample/tests/SpringTests.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/resources/appcontext/beans-service.xml" afterPath="$PROJECT_DIR$/src/main/resources/appcontext/beans-service.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/test.lck" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/test.log" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/test.properties" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/test.script" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build.xml" afterPath="$PROJECT_DIR$/build.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/log4j.xml" afterPath="$PROJECT_DIR$/log4j.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/springExample.iml" afterPath="$PROJECT_DIR$/springExample.iml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="springExample.iws" />
@@ -22,7 +21,7 @@
     <file path="/PetClinicServiceImpl.java" changelist="f9ae6855-3e21-4292-bdb7-9a6878b2129a" time="1368257830683" ignored="false" />
     <file path="/PetClinicServiceFactoryBean.java" changelist="f9ae6855-3e21-4292-bdb7-9a6878b2129a" time="1368099076654" ignored="false" />
     <file path="/log4j.xml" changelist="f9ae6855-3e21-4292-bdb7-9a6878b2129a" time="1368105572120" ignored="false" />
-    <file path="/Dummy.txt" changelist="f9ae6855-3e21-4292-bdb7-9a6878b2129a" time="1368256420988" ignored="false" />
+    <file path="/Dummy.txt" changelist="f9ae6855-3e21-4292-bdb7-9a6878b2129a" time="1368258291629" ignored="false" />
     <file path="/beans-config.xml" changelist="f9ae6855-3e21-4292-bdb7-9a6878b2129a" time="1368107233208" ignored="false" />
     <file path="/PetClinicEventHandler.java" changelist="f9ae6855-3e21-4292-bdb7-9a6878b2129a" time="1368168913903" ignored="false" />
     <file path="/EntitySaveEvent.java" changelist="f9ae6855-3e21-4292-bdb7-9a6878b2129a" time="1368169548393" ignored="false" />
@@ -327,6 +326,16 @@
             <PATH_ELEMENT>
               <option name="myItemId" value="springExample" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="springExample" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="springExample" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
         </subPane>
@@ -665,7 +674,11 @@
       <created>1368194215020</created>
       <updated>1368194215020</updated>
     </task>
-    <option name="localTasksCounter" value="8" />
+    <task id="LOCAL-00008" summary="Transaction">
+      <created>1368258300423</created>
+      <updated>1368258300423</updated>
+    </task>
+    <option name="localTasksCounter" value="9" />
     <servers />
   </component>
   <component name="ToolWindowManager">
@@ -742,7 +755,7 @@
     <option name="WRAP_WHEN_TYPING_REACHES_RIGHT_MARGIN" value="false" />
     <option name="FORCE_NON_EMPTY_COMMENT" value="false" />
     <option name="CLEAR_INITIAL_COMMIT_MESSAGE" value="false" />
-    <option name="LAST_COMMIT_MESSAGE" value="Hibernate" />
+    <option name="LAST_COMMIT_MESSAGE" value="Transaction" />
     <option name="MAKE_NEW_CHANGELIST_ACTIVE" value="false" />
     <option name="OPTIMIZE_IMPORTS_BEFORE_PROJECT_COMMIT" value="false" />
     <option name="CHECK_FILES_UP_TO_DATE_BEFORE_COMMIT" value="false" />
@@ -763,6 +776,7 @@
     <MESSAGE value="SpEL" />
     <MESSAGE value="JDBC Template" />
     <MESSAGE value="Hibernate" />
+    <MESSAGE value="Transaction" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager />
