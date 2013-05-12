@@ -2,7 +2,6 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="f9ae6855-3e21-4292-bdb7-9a6878b2129a" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/com/gg/example/springExample/aop/PetClinicTrackerAspect.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/test.lck" afterPath="$PROJECT_DIR$/test.lck" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/resources/appcontext/beans-config.xml" afterPath="$PROJECT_DIR$/src/main/resources/appcontext/beans-config.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build.xml" afterPath="$PROJECT_DIR$/build.xml" />
@@ -21,8 +20,8 @@
     <file path="/PetClinicServiceImpl.java" changelist="f9ae6855-3e21-4292-bdb7-9a6878b2129a" time="1368257830683" ignored="false" />
     <file path="/PetClinicServiceFactoryBean.java" changelist="f9ae6855-3e21-4292-bdb7-9a6878b2129a" time="1368099076654" ignored="false" />
     <file path="/log4j.xml" changelist="f9ae6855-3e21-4292-bdb7-9a6878b2129a" time="1368105572120" ignored="false" />
-    <file path="/Dummy.txt" changelist="f9ae6855-3e21-4292-bdb7-9a6878b2129a" time="1368346017061" ignored="false" />
-    <file path="/beans-config.xml" changelist="f9ae6855-3e21-4292-bdb7-9a6878b2129a" time="1368355916387" ignored="false" />
+    <file path="/Dummy.txt" changelist="f9ae6855-3e21-4292-bdb7-9a6878b2129a" time="1368356439499" ignored="false" />
+    <file path="/beans-config.xml" changelist="f9ae6855-3e21-4292-bdb7-9a6878b2129a" time="1368356718953" ignored="false" />
     <file path="/PetClinicEventHandler.java" changelist="f9ae6855-3e21-4292-bdb7-9a6878b2129a" time="1368168913903" ignored="false" />
     <file path="/EntitySaveEvent.java" changelist="f9ae6855-3e21-4292-bdb7-9a6878b2129a" time="1368169548393" ignored="false" />
     <file path="/PetClinicSaveEventHandler.java" changelist="f9ae6855-3e21-4292-bdb7-9a6878b2129a" time="1368169534524" ignored="false" />
@@ -206,10 +205,10 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="PetClinicTrackerAspect.java" pinned="false" current="true" current-in-tab="true">
+      <file leaf-file-name="PetClinicTrackerAspect.java" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/com/gg/example/springExample/aop/PetClinicTrackerAspect.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="15" column="26" selection-start="375" selection-end="375" vertical-scroll-proportion="0.27125505">
+            <state line="15" column="26" selection-start="375" selection-end="375" vertical-scroll-proportion="0.0">
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -226,10 +225,10 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="beans-config.xml" pinned="false" current="false" current-in-tab="false">
+      <file leaf-file-name="beans-config.xml" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/main/resources/appcontext/beans-config.xml">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="12" column="4" selection-start="860" selection-end="860" vertical-scroll-proportion="0.0">
+            <state line="14" column="16" selection-start="972" selection-end="972" vertical-scroll-proportion="0.42307693">
               <folding />
             </state>
           </provider>
@@ -274,8 +273,8 @@
         <option value="$PROJECT_DIR$/src/test/java/com/gg/example/springExample/tests/HttpInvokerTest.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/gg/example/springExample/dao/PetClinicDaoHibernateImpl.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/gg/example/springExample/model/Vet.java" />
-        <option value="$PROJECT_DIR$/src/main/resources/appcontext/beans-config.xml" />
         <option value="$PROJECT_DIR$/src/main/java/com/gg/example/springExample/aop/PetClinicTrackerAspect.java" />
+        <option value="$PROJECT_DIR$/src/main/resources/appcontext/beans-config.xml" />
       </list>
     </option>
   </component>
@@ -1087,7 +1086,11 @@
       <created>1368346027805</created>
       <updated>1368346027806</updated>
     </task>
-    <option name="localTasksCounter" value="13" />
+    <task id="LOCAL-00013" summary="AOP">
+      <created>1368356450650</created>
+      <updated>1368356450650</updated>
+    </task>
+    <option name="localTasksCounter" value="14" />
     <servers />
   </component>
   <component name="ToolWindowManager">
@@ -1164,7 +1167,7 @@
     <option name="WRAP_WHEN_TYPING_REACHES_RIGHT_MARGIN" value="false" />
     <option name="FORCE_NON_EMPTY_COMMENT" value="false" />
     <option name="CLEAR_INITIAL_COMMIT_MESSAGE" value="false" />
-    <option name="LAST_COMMIT_MESSAGE" value="Http Invoker" />
+    <option name="LAST_COMMIT_MESSAGE" value="AOP" />
     <option name="MAKE_NEW_CHANGELIST_ACTIVE" value="false" />
     <option name="OPTIMIZE_IMPORTS_BEFORE_PROJECT_COMMIT" value="false" />
     <option name="CHECK_FILES_UP_TO_DATE_BEFORE_COMMIT" value="false" />
@@ -1189,6 +1192,7 @@
     <MESSAGE value="Data" />
     <MESSAGE value="Rest" />
     <MESSAGE value="Http Invoker" />
+    <MESSAGE value="AOP" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager />
@@ -1318,13 +1322,6 @@
         <state />
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/resources/appcontext/beans-config.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="12" column="4" selection-start="860" selection-end="860" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/com/gg/example/springExample/tests/SpringTests.java">
       <provider selected="true" editor-type-id="text-editor">
         <state line="30" column="22" selection-start="934" selection-end="934" vertical-scroll-proportion="0.0">
@@ -1336,10 +1333,17 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/gg/example/springExample/aop/PetClinicTrackerAspect.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="15" column="26" selection-start="375" selection-end="375" vertical-scroll-proportion="0.27125505">
+        <state line="15" column="26" selection-start="375" selection-end="375" vertical-scroll-proportion="0.0">
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/appcontext/beans-config.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="14" column="16" selection-start="972" selection-end="972" vertical-scroll-proportion="0.42307693">
+          <folding />
         </state>
       </provider>
     </entry>
