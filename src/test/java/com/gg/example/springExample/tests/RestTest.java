@@ -1,5 +1,6 @@
 package com.gg.example.springExample.tests;
 
+import com.gg.example.springExample.model.Owner;
 import com.gg.example.springExample.model.Vet;
 import org.junit.Test;
 import org.junit.runner.RunWith;
@@ -25,4 +26,9 @@ public class RestTest {
         System.out.println(vet);
     }
 
+
+    public void testFindOwners(){
+        RestTemplate restTemplate = new RestTemplate();
+        Owner owner = restTemplate.getForObject("http://localhost:8080/mvc/owner", Owner.class,1L);
+    }
 }

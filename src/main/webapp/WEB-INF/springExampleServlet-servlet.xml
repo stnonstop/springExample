@@ -13,4 +13,13 @@
         <property name="prefix" value="/WEB-INF/jsp/" />
         <property name="suffix" value=".jsp" />
     </bean>
+
+    <bean class="org.springframework.web.servlet.handler.BeanNameUrlHandlerMapping" />
+
+    <bean name="/PetClinicServiceHttp" class="org.springframework.remoting.httpinvoker.HttpInvokerServiceExporter" >
+        <property name="service" ref="petClinicService" />
+        <property name="serviceInterface" value="com.gg.example.springExample.service.PetClinicService" />
+    </bean>
+
+    <bean class="org.springframework.web.servlet.mvc.HttpRequestHandlerAdapter" />
 </beans>

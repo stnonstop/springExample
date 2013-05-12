@@ -1,6 +1,7 @@
 package com.gg.example.springExample.dao;
 
 import com.gg.example.springExample.model.*;
+import org.hibernate.Hibernate;
 import org.hibernate.Query;
 import org.hibernate.Session;
 import org.hibernate.SessionFactory;
@@ -65,7 +66,17 @@ public class PetClinicDaoHibernateImpl implements PetClinicDao {
 
     @Override
     public Vet loadVet(long id) {
-        return (Vet) sessionFactory.getCurrentSession().get(Vet.class, id);  //To change body of implemented methods use File | Settings | File Templates.
+        /*Vet vet = (Vet) sessionFactory.getCurrentSession().get(Vet.class, id);
+        Hibernate.initialize(vet.getSpecialties());
+        return vet;*/
+
+        return (Vet) sessionFactory
+                        .getCurrentSession()
+                        .createQuery(
+                            "select new com.gg.example.springExample.model.Vet(id, firstName,lastName) FROM Vet where id = ?")
+                        .setParameter(0,id)
+                        .uniqueResult();
+
     }
 
     @Override
