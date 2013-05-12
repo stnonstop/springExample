@@ -81,4 +81,9 @@ public class PetClinicServiceRestImpl implements PetClinicService {
     public void deleteOwner(@PathVariable("ownerId") long ownerId) {
         petClinicService.deleteOwner(ownerId);
     }
+
+    @ExceptionHandler(Exception.class)
+    public void handle(Exception e) {
+        e.printStackTrace();
+    }
 }

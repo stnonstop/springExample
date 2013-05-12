@@ -65,7 +65,7 @@ public class PetClinicDaoHibernateImpl implements PetClinicDao {
 
     @Override
     public Vet loadVet(long id) {
-        return (Vet) sessionFactory.getCurrentSession().load(Vet.class, id);  //To change body of implemented methods use File | Settings | File Templates.
+        return (Vet) sessionFactory.getCurrentSession().get(Vet.class, id);  //To change body of implemented methods use File | Settings | File Templates.
     }
 
     @Override
