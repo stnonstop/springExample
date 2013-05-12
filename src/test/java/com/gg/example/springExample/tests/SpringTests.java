@@ -46,7 +46,8 @@ public class SpringTests {
         Vet vet = new Vet();
         vet.setFirstName("Raif");
         vet.setLastName("Durmaz");
-        petClinicService.saveVet(vet);
+        //petClinicService.saveVet(vet);
+        vet.save();
     }
 
 
