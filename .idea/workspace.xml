@@ -3,7 +3,7 @@
   <component name="ChangeListManager">
     <list default="true" id="f9ae6855-3e21-4292-bdb7-9a6878b2129a" name="Default" comment="">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/test.lck" afterPath="$PROJECT_DIR$/test.lck" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/resources/appcontext/beans-config.xml" afterPath="$PROJECT_DIR$/src/main/resources/appcontext/beans-config.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/resources/appcontext/beans-service.xml" afterPath="$PROJECT_DIR$/src/main/resources/appcontext/beans-service.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build.xml" afterPath="$PROJECT_DIR$/build.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/log4j.xml" afterPath="$PROJECT_DIR$/log4j.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/test.log" afterPath="$PROJECT_DIR$/test.log" />
@@ -14,13 +14,13 @@
     <file path="/PetClinicDaoJdbcImpl.java" changelist="f9ae6855-3e21-4292-bdb7-9a6878b2129a" time="1368185584841" ignored="false" />
     <file path="/a.dummy" changelist="f9ae6855-3e21-4292-bdb7-9a6878b2129a" time="1368087779785" ignored="false" />
     <file path="/bean-dao.xml" changelist="f9ae6855-3e21-4292-bdb7-9a6878b2129a" time="1368090018347" ignored="false" />
-    <file path="/beans-service.xml" changelist="f9ae6855-3e21-4292-bdb7-9a6878b2129a" time="1368257616814" ignored="false" />
+    <file path="/beans-service.xml" changelist="f9ae6855-3e21-4292-bdb7-9a6878b2129a" time="1368357237297" ignored="false" />
     <file path="/SpringTests.java" changelist="f9ae6855-3e21-4292-bdb7-9a6878b2129a" time="1368257189904" ignored="false" />
     <file path="/beans-dao.xml" changelist="f9ae6855-3e21-4292-bdb7-9a6878b2129a" time="1368189361773" ignored="false" />
     <file path="/PetClinicServiceImpl.java" changelist="f9ae6855-3e21-4292-bdb7-9a6878b2129a" time="1368257830683" ignored="false" />
     <file path="/PetClinicServiceFactoryBean.java" changelist="f9ae6855-3e21-4292-bdb7-9a6878b2129a" time="1368099076654" ignored="false" />
     <file path="/log4j.xml" changelist="f9ae6855-3e21-4292-bdb7-9a6878b2129a" time="1368105572120" ignored="false" />
-    <file path="/Dummy.txt" changelist="f9ae6855-3e21-4292-bdb7-9a6878b2129a" time="1368356439499" ignored="false" />
+    <file path="/Dummy.txt" changelist="f9ae6855-3e21-4292-bdb7-9a6878b2129a" time="1368357371555" ignored="false" />
     <file path="/beans-config.xml" changelist="f9ae6855-3e21-4292-bdb7-9a6878b2129a" time="1368356718953" ignored="false" />
     <file path="/PetClinicEventHandler.java" changelist="f9ae6855-3e21-4292-bdb7-9a6878b2129a" time="1368168913903" ignored="false" />
     <file path="/EntitySaveEvent.java" changelist="f9ae6855-3e21-4292-bdb7-9a6878b2129a" time="1368169548393" ignored="false" />
@@ -126,10 +126,10 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="beans-service.xml" pinned="false" current="false" current-in-tab="false">
+      <file leaf-file-name="beans-service.xml" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/main/resources/appcontext/beans-service.xml">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="7" column="59" selection-start="644" selection-end="658" vertical-scroll-proportion="0.0">
+            <state line="10" column="62" selection-start="903" selection-end="903" vertical-scroll-proportion="0.4731861">
               <folding />
             </state>
           </provider>
@@ -225,10 +225,10 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="beans-config.xml" pinned="false" current="true" current-in-tab="true">
+      <file leaf-file-name="beans-config.xml" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/resources/appcontext/beans-config.xml">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="14" column="16" selection-start="972" selection-end="972" vertical-scroll-proportion="0.42307693">
+            <state line="14" column="16" selection-start="972" selection-end="972" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
@@ -262,7 +262,6 @@
         <option value="$PROJECT_DIR$/src/main/java/com/gg/example/springExample/web/PetClinicServlet.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/gg/example/springExample/web/PetClinicController.java" />
         <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/jsp/owners.jsp" />
-        <option value="$PROJECT_DIR$/src/main/resources/appcontext/beans-service.xml" />
         <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/jsp/ownerResults.jsp" />
         <option value="$PROJECT_DIR$/src/main/java/com/gg/example/springExample/service/PetClinicServiceRestImpl.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/gg/example/springExample/web/PetClinicServiceRestImpl.java" />
@@ -275,6 +274,7 @@
         <option value="$PROJECT_DIR$/src/main/java/com/gg/example/springExample/model/Vet.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/gg/example/springExample/aop/PetClinicTrackerAspect.java" />
         <option value="$PROJECT_DIR$/src/main/resources/appcontext/beans-config.xml" />
+        <option value="$PROJECT_DIR$/src/main/resources/appcontext/beans-service.xml" />
       </list>
     </option>
   </component>
@@ -1090,7 +1090,11 @@
       <created>1368356450650</created>
       <updated>1368356450650</updated>
     </task>
-    <option name="localTasksCounter" value="14" />
+    <task id="LOCAL-00014" summary="AOP XML configuration">
+      <created>1368356797725</created>
+      <updated>1368356797725</updated>
+    </task>
+    <option name="localTasksCounter" value="15" />
     <servers />
   </component>
   <component name="ToolWindowManager">
@@ -1102,14 +1106,14 @@
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32724252" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.16774717" sideWeight="0.53589314" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.16774717" sideWeight="0.67445743" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.39899832" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="IDEtalk Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.35225376" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="IDEtalk" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32888147" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32554257" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.32554257" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="CDI" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Web" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.28768232" sideWeight="0.28046745" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
@@ -1117,9 +1121,9 @@
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.08427877" sideWeight="0.5542571" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Application Servers" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32888147" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.28768232" sideWeight="0.53589314" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.28768232" sideWeight="0.67445743" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.39732888" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.46410686" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.46410686" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
@@ -1167,7 +1171,7 @@
     <option name="WRAP_WHEN_TYPING_REACHES_RIGHT_MARGIN" value="false" />
     <option name="FORCE_NON_EMPTY_COMMENT" value="false" />
     <option name="CLEAR_INITIAL_COMMIT_MESSAGE" value="false" />
-    <option name="LAST_COMMIT_MESSAGE" value="AOP" />
+    <option name="LAST_COMMIT_MESSAGE" value="AOP ile XML TX Management configuration" />
     <option name="MAKE_NEW_CHANGELIST_ACTIVE" value="false" />
     <option name="OPTIMIZE_IMPORTS_BEFORE_PROJECT_COMMIT" value="false" />
     <option name="CHECK_FILES_UP_TO_DATE_BEFORE_COMMIT" value="false" />
@@ -1193,6 +1197,8 @@
     <MESSAGE value="Rest" />
     <MESSAGE value="Http Invoker" />
     <MESSAGE value="AOP" />
+    <MESSAGE value="AOP XML configuration" />
+    <MESSAGE value="AOP ile XML TX Management configuration" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager />
@@ -1266,13 +1272,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/resources/appcontext/beans-service.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="7" column="59" selection-start="644" selection-end="658" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/resources/appcontext/beans-dao.xml">
       <provider selected="true" editor-type-id="text-editor">
         <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
@@ -1342,7 +1341,14 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/resources/appcontext/beans-config.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="14" column="16" selection-start="972" selection-end="972" vertical-scroll-proportion="0.42307693">
+        <state line="14" column="16" selection-start="972" selection-end="972" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/appcontext/beans-service.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="10" column="62" selection-start="903" selection-end="903" vertical-scroll-proportion="0.4731861">
           <folding />
         </state>
       </provider>
